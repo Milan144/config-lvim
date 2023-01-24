@@ -11,7 +11,7 @@ an executable
 -- general
 lvim.log.level = "warn"
 lvim.format_on_save.enabled = false
-lvim.colorscheme = "lunar"
+lvim.colorscheme = "dracula"
 -- to disable icons and use a minimalist setup, uncomment the following
 -- lvim.use_icons = false
 lvim.transparent_window = true
@@ -165,6 +165,14 @@ lvim.lsp.installer.setup.ensure_installed = {
  lvim.plugins = {
     {
       "github/copilot.vim",
+      "ms-jpq/coq_nvim",
+      "AckslD/swenv.nvim",
+      "ray-x/go.nvim",
+      "crusj/structrue-go.nvim",
+      "s1n7ax/nvim-search-and-replace",
+      "NvChad/nvim-colorizer.lua",
+      "Mofiqul/dracula.nvim",
+      "andweeb/presence.nvim",
     },
   }
 
