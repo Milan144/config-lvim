@@ -161,6 +161,7 @@ lvim.lsp.installer.setup.ensure_installed = {
 --   },
 -- }
 
+
  --Additional Plugins
  lvim.plugins = {
     {
